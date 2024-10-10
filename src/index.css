@@ -1,0 +1,14 @@
+html,
+body{
+  background: linear-gradient(to right, #FC5C7D, #6A82FB);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;  
+  overflow: hidden;
+}
