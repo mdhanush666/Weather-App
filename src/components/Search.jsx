@@ -11,7 +11,7 @@ export const Search = () => {
 
   // Fetch Location.............
   const fetchLocation = async () => {
-    const apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${search}&limit=1&appid=${apiKey}`;
+    const apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${search}&limit=1&appid=${apiKey}`;
 
     const response = await fetch(apiUrl);
     const data = await response.json();
